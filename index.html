@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto');
         @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
@@ -126,6 +127,40 @@
             display: inline-block;
             vertical-align: middle;
         }
+        #about{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background-color: #aaa;
+        }
+        #about .col-3{
+            text-align: center;
+            padding:20px;
+        }
+        #about h3{
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+        #about p {
+            font-size: 14px;
+        }
+        #about .col-3:nth-of-type(1) .icon {
+            color: blue;
+        }
+        #about .col-3:nth-of-type(2) .icon{
+            color: darkorange;
+        }
+        #about .col-3:nth-of-type(3) .icon{
+            color: deepskyblue;
+        }
+        #ad {
+            background-image: url(http://lorempicsum.com/futurama/627/200/3);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            text-align: center;
+            color: white;
+        }
     </style>
 </head>
 
@@ -150,6 +185,32 @@
             <a href="#">MORE</a>
         </div>
     </header>
+    <div id="about" class="full-width clearfix">
+        <div class="fixed-width">
+            <div class="col-3">
+                <div class="icon"><span class="fa fa-coffee fa-3x"></span></div>
+                <h3>QWER</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum architecto veritatis, quasi perspiciatis, aperiam cumque ipsa, nostrum facilis pariatur ducimus iure in nulla et. Commodi, assumenda. Consectetur ut sunt optio?</p>
+            </div>
+               <div class="col-3">
+                <div class="icon"><span class="fa fa-bomb fa-3x"></span></div>
+                <h3>QWER</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum architecto veritatis, quasi perspiciatis, aperiam cumque ipsa, nostrum facilis pariatur ducimus iure in nulla et. Commodi, assumenda. Consectetur ut sunt optio?</p>
+            </div>
+               <div class="col-3">
+                <div class="icon"><span class="fa fa-blind fa-3x"></span></div>
+                <h3>QWER</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum architecto veritatis, quasi perspiciatis, aperiam cumque ipsa, nostrum facilis pariatur ducimus iure in nulla et. Commodi, assumenda. Consectetur ut sunt optio?</p>
+            </div>
+        </div>
+    </div>
+    <div id="ad" class="full-width">
+    <div class="centent">
+        <h2>TQC</h2>
+        <p>gdsgf gfdgr g gfgfsr </p>
+        <div><span class="fa fa-youtube-play fa-4x"></span></div>
+    </div>
+    </div>
 </body>
 
 </html>
